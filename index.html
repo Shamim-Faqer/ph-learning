@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning from Programming Hero</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1 class="section-title">Pseudo class & Nth Child</h1>
+
+             <p>If you use <span class="tomato">input:focus</span> class then you can change its style</p> 
+
+             <p>if you use <span class="tomato">a:visited</span> class then you can style visited website</p>
+
+             <p>if you use <span class="tomato">h1:hover</span> class then you can style the element whenever you roll the mouse over it</p>
+
+             <label for="name">Name</label> <br>
+
+             <input type="text" placeholder="name"> <br>
+
+             <label for="name">Email</label> <br>
+        
+             <input type="text" placeholder="email"> <br>
+
+             <label for="massage">Massages</label> <br>
+             <textarea name="massage" id="">massage</textarea> <br>
+
+             <a href="https://google.com">Google</a> <br>
+             <a href="https://facebook.com">Facebook</a> <br>
+             <a href="https://www.youtube.com/">youtube.com</a> <br>
+             <a href="https://facebook.com/deepseek">deepseek</a>
+
+            <ul>
+                <li>alia</li>
+                <li>balia</li>
+                <li>calia</li>
+                <li>dalia</li>
+                <li>ealia</li>
+             </ul>
+        </section>
+        
+        <section class="position">
+            <p class="section-title">Css Positioning</p>
+            <ul>
+                <li>static: <small>📌 ব্যাখ্যা:
+                প্রতিটি element এর default position হলো static।
+
+                এতে element গুলি সাধারণত HTML flow অনুযায়ী উপর থেকে নিচে, বাম থেকে ডানে সাজানো থাকে।
+
+                top, left, right, bottom কাজ করে না।
+
+                🎯 কখন ব্যবহার হয়:
+                তুমি যখন কোনো বিশেষ position control চাও না।</small></li>
+                <li>relative: <small>যখন কোনো element-এ position: relative দেওয়া হয়—
+
+                তখন সেটি তার natural জায়গায় থাকে।
+
+                 তবে তুমি top, left, right, বা bottom দিয়ে একটু উপরে, নিচে বা পাশে সরাতে পারো—সে তার আগের জায়গা থেকে সরবে।
+
+                Element-এর জায়গাটা রয়ে যায় আগের মতোই। মানে, সে যতই সরুক, তার আগের জায়গা still "reserved" থাকে।</small></li>
+                <li>Absolute: <small> ব্যাখ্যা:
+                Element তার parent-দের মধ্যে প্রথম relative, absolute, বা fixed element এর অবস্থানের উপর ভিত্তি করে position নেয়।
+
+                না থাকলে পুরো page (body) কে reference ধরে।
+
+                top, left, right, bottom দিয়ে একদম নির্দিষ্ট স্থানে বসানো যায়।
+
+                Normal flow থেকে বেরিয়ে যায়। মানে, অন্য element-রা এটিকে ignore করে।
+
+                🎯 কখন ব্যবহার হয়:
+                নির্দিষ্ট জায়গায় বসাতে চাইলে।
+
+                overlay, menu, tooltip, modal তৈরি করতে।</small></li>
+            </ul>
+            <ol>
+                <li>Fixed</li>
+                <li>Sticky</li>
+            </ol>
+
+            <div class="swim-container">
+                
+                <div class="box-boy"> 
+                    <img src="./swim/boy.svg" alt="">
+                </div>
+
+                <div class="box-ring"> 
+                    <img src="./swim/ring.svg" alt="">
+                </div>
+
+                <div class="box-water"> 
+                    <img src="./swim/water.svg" alt="">
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
+
 </html>

@@ -1,0 +1,55 @@
+h1 {
+    color: tomato;
+    text-align: center;
+    margin-top: 50px;
+}
+h1:hover{
+    color:cyan; 
+}
+input:focus {
+    color: brown;
+    outline: none;
+}
+a:visited {
+    color: burlywood;
+}
+.tomato {
+    color:tomato
+}
+
+li:last-child {
+    color: purple;
+   
+    
+}
+li:first-child {
+    color: tomato;
+}
+
+li:nth-child(3n+1) {
+    color:purple;
+}
+
+/*Css Positioning */
+ .section-title {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: tomato;
+    text-align: center;
+ }
+
+.box-boy {
+    border: 2px dotted peru;
+    width: 200px;
+}
+.box-ring {
+    border: 2px dotted peru;
+    width: 200px;
+    
+
+}
+.box-water {
+    border: 2px dotted tomato;
+    width: 200px;
+    
+}
