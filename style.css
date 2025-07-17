@@ -1,11 +1,22 @@
-h1 {
+h1, h2, h3, h4 {
     color: tomato;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px;font-size: xx-large;
+    position: sticky;
+    top: 0;
+
 }
-h1:hover{
+h3:hover{
     color:cyan; 
 }
+.hero {
+    text-align: center;
+    
+}
+.hero ul{
+    list-style: none;
+}
+
 input:focus {
     color: brown;
     outline: none;
@@ -36,20 +47,38 @@ li:nth-child(3n+1) {
     font-weight: bolder;
     color: tomato;
     text-align: center;
+    background-color: aquamarine;
  }
 
 .box-boy {
     border: 2px dotted peru;
-    width: 200px;
+    text-align: center;
+    
+    
 }
 .box-ring {
     border: 2px dotted peru;
-    width: 200px;
+    text-align: center;;
     
 
 }
 .box-water {
     border: 2px dotted tomato;
-    width: 200px;
+    text-align: center;
     
+}
+.position ul {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 100px;
+        padding: 50px;
+}
+.position ol{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 50px;
+        gap: 200px;
+        
 }
