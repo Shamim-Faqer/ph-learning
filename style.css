@@ -1,3 +1,47 @@
+/*Header*/
+
+.header{
+    display: flex;
+    background-color: aqua;
+    
+}
+.logo {
+    display: flex;
+    gap: 20 px  ;
+    background-color: aqua;
+}
+.navbar {
+    display: flex;
+    gap: 50px;
+    background-color: aquamarine;
+    justify-content: center;
+    
+}
+.navbar a {
+    text-decoration: none;
+
+}
+
+.header-icon {
+    display: flex;
+    align-content: end;
+    align-content: end;
+}
+
+.header .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.logo-text{
+    font-size: larger;
+    font-weight: bold;
+    align-content: center;
+    padding-left: 5px;
+}
+
+
+
 h1, h2, h3, h4 {
     color: tomato;
     text-align: center;
@@ -81,4 +125,51 @@ li:nth-child(3n+1) {
         padding: 50px;
         gap: 200px;
         
+}
+/*index&axis*/
+
+
+.axis-index ul {
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 100px;
+    list-style: none;
+    padding: 20px;
+
+}
+.axis-index li {
+    flex: 1;
+    background-color: bisque;
+    padding: 15px;
+  border-radius: 10px;
+
+}
+
+.Z-axis {
+    position: relative;
+    
+}
+
+.zzbox-boy {
+    position: relative;
+    top: 50px;
+    z-index: 10;
+    
+}
+
+.zzbox-ring {
+    position: relative;
+    z-index: 5;  
+}
+
+.zzbox-water {
+    position: relative;
+    bottom: 80px;
+    z-index: 1;
+}
+
+.icons {
+    position: relative;
+    left: 45%;
 }
